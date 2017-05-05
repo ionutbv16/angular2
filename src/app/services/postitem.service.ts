@@ -38,11 +38,11 @@ export class PostItemService {
       });
  
        // var ref = 100001;
-        return this.http.get('https://colossustest.herokuapp.com/api/items/'+ref+'.json').map (
-            
-            res => res.json()
-            
-        );
+       if (ref) {
+                return this.http.get('https://colossustest.herokuapp.com/api/items/'+ref+'.json').map (
+                    res => res.json()
+                );
+       }
  
     }
 

@@ -36,6 +36,9 @@ export class ItemComponent  {
         this.post = post
 
     });
+    
+
+
   }
 
  

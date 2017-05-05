@@ -27,21 +27,10 @@ export class ItemsComponent  {
 
     });
   }
+ 
+   
 
-  toggleHobbies () {
-        console.log('toggle');
-        this.showHobbies = !this.showHobbies;
- }
-
-  addHobby (hobby) {
-      this.hobbies.push(hobby);
-        console.log('addHobby', hobby);
-  }
-
-   deleteHobbies (ind) {
-      this.hobbies.splice(ind,1);
-      console.log('deleteHobbies', ind);
-  }
+    
 
  }
 
